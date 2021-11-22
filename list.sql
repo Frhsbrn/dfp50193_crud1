@@ -3,7 +3,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 CREATE TABLE `list` (
-  `idsenarai` int(11) NOT NULL,
+  `idlist` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `ic` varchar(12) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
